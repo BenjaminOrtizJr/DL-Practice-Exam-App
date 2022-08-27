@@ -13,7 +13,26 @@ function showQuestion(q) {
 
     // 3. Selecting by a query
     let alts = document.querySelectorAll('.alternative');
-    console.log(alts);
-}
 
+    // 4. Show each alternative
+    alts.forEach(function (element, index) {
+        element.textContent = q.alternatives[index];
+
+        element.addEventListener('click', function () {
+            if (index === q.correctAnswer) {
+                console.log('Correct');
+            } else {
+                console.log('Incorrect');
+            }
+        });
+    });
+}
+// call function
 showQuestion(question);
+
+let btn = document.getElementById('btn');
+
+btn.addEventListener('click', function () {
+    console.log('Clicked!');
+    
+});
