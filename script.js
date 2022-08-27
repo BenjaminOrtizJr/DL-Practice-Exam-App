@@ -1,7 +1,8 @@
 let question = {
-    title: 'gato',
-    alternatives: ['dog', 'cat', 'bird', 'mouse'],
-    correctAnswer: 1
+    title: '1. WHEN YOU SEE THIS SIGN, YOU MUST:',
+    alternatives: ['A. Stop completely, check for pedestrians, and cross traffic', 'B. Slow down without coming to a complete stop', 'C. Stop completely and wait for a green light', 'D. Slow down and check for traffic'],
+    correctAnswer: 0,
+    questionImage: "/images/stop_sign.PNG"
 };
 
 function showQuestion(q) {
@@ -13,11 +14,12 @@ function showQuestion(q) {
 
     // 3. Selecting by a query
     let alts = document.querySelectorAll('.alternative');
+    
 
     // 4. Show each alternative
     alts.forEach(function (element, index) {
         element.textContent = q.alternatives[index];
-
+        
         element.addEventListener('click', function () {
             if (index === q.correctAnswer) {
                 console.log('Correct');
@@ -25,7 +27,9 @@ function showQuestion(q) {
                 console.log('Incorrect');
             }
         });
+        
     });
+
 }
 // call function
 showQuestion(question);
