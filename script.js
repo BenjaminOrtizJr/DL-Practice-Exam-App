@@ -5,6 +5,20 @@ let question = {
     questionImage: "/images/stop_sign.PNG"
 };
 
+function start() {
+    let alts = document.querySelectorAll('.alternative');
+
+    alts.forEach(function (element, index) {
+        element.addEventListener('click', function () {
+            // check correct answer
+            console.log('check correct answer')
+        });
+    });
+}
+
+// show first question 
+showQuestion(question);
+
 function showQuestion(q) {
     // 1. Select DOM element
     let titleDiv = document.getElementById('title');
@@ -15,28 +29,13 @@ function showQuestion(q) {
     // 3. Selecting by a query
     let alts = document.querySelectorAll('.alternative');
     
-
     // 4. Show each alternative
     alts.forEach(function (element, index) {
         element.textContent = q.alternatives[index];
         
-        element.addEventListener('click', function () {
-            if (index === q.correctAnswer) {
-                console.log('Correct');
-            } else {
-                console.log('Incorrect');
-            }
-        });
-        
     });
 
 }
+
 // call function
-showQuestion(question);
-
-let btn = document.getElementById('btn');
-
-btn.addEventListener('click', function () {
-    console.log('Clicked!');
-    
-});
+start()
