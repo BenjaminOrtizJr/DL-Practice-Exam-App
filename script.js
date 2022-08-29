@@ -1,14 +1,14 @@
-let question = {
-    title: '1. WHEN YOU SEE THIS SIGN, YOU MUST:',
-    alternatives: [
-        'A. Stop completely, check for pedestrians, and cross traffic.',
-        'B. Slow down without coming to a complete stop.',
-        'C. Stop completely and wait for a green light.',
-        'D. Slow down and check for traffic.'
-    ],
-    correctAnswer: 0,
-    questionImage: "/images/stop_sign.PNG"
-};
+// let question = {
+//     title: '1. WHEN YOU SEE THIS SIGN, YOU MUST:',
+//     alternatives: [
+//         'A. Stop completely, check for pedestrians, and cross traffic.',
+//         'B. Slow down without coming to a complete stop.',
+//         'C. Stop completely and wait for a green light.',
+//         'D. Slow down and check for traffic.'
+//     ],
+//     correctAnswer: 0,
+//     questionImage: "/images/stop_sign.PNG"
+// };
 
 let questions = [
     {
@@ -21,6 +21,50 @@ let questions = [
         ],
         correctAnswer: 0,
         questionImage: "/images/stop_sign.PNG"
+    },
+    {
+        title: '2. THIS IS THE SHAPE AND COLOR OF A __________ SIGN.',
+        alternatives: [
+            'A. Stop',
+            'B. Wrong Way',
+            'C. Yield',
+            'D. Do not enter'
+        ],
+        correctAnswer: 2,
+        questionImage: "/images/yield_sign.PNG"
+    },
+    {
+        title: '3. THIS SIGN MEANS:',
+        alternatives: [
+            'A. Stop',
+            'B. No U-Turn',
+            'C. Yield',
+            'D. Do not enter'
+        ],
+        correctAnswer: 3,
+        questionImage: "/images/do_not_enter_sign.PNG"
+    },
+    {
+        title: '4. THIS SIGN MEANS:',
+        alternatives: [
+            'A. No U-Turn',
+            'B. No Turning',
+            'C. No left turn',
+            'D. No right turn'
+        ],
+        correctAnswer: 0,
+        questionImage: "/images/no_uTurn_sign.PNG"
+    },
+    {
+        title: '5. THIS SIGN MEANS:',
+        alternatives: [
+            'A. No U-Turn',
+            'B. No left turn',
+            'C. No right turn',
+            'D. No turning'
+        ],
+        correctAnswer: 3,
+        questionImage: "/images/yield_sign.PNG"
     },
 ];
 

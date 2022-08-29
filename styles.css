@@ -5,14 +5,13 @@ body {
 }
 
 #app-wrapper {
-    max-width: 400px;
+    min-width: 375px;
     margin: auto;
     text-align: left;
 }
 
 #image-content {
     width: 50px;
-
 }
 
 #image-content > img {
