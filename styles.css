@@ -1,0 +1,29 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#app-wrapper {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+#image-content {
+    width: 50px;
+
+}
+
+#image-content > img {
+    padding-top: 10px;
+}
+
+#app {
+    margin-top: 20px;
+    padding: 2px;
+}
+
+li {
+    list-style-type: none;
+}
