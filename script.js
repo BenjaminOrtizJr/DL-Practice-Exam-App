@@ -63,8 +63,8 @@ let questions = [
             'C. No right turn',
             'D. No turning'
         ],
-        correctAnswer: 3,
-        questionImage: "/images/yield_sign.PNG"
+        correctAnswer: 2,
+        questionImage: "/images/no_right_turn.PNG"
     },
 ];
 
