@@ -73,6 +73,7 @@ let app = {
 
         // keep track of the current position in the questions array
         this.currentPosition = 0;
+        this.score = 0;
 
         // get alternatives
         let alts = document.querySelectorAll('.alternative');
@@ -84,6 +85,9 @@ let app = {
             });
         });
 
+        // reefresh stats/score
+        this.updateStats();
+        
         // show first question
         this.showQuestion(questions[this.currentPosition]);
     },
@@ -113,17 +117,24 @@ let app = {
         if (currentQuestion.correctAnswer == userSelected) {
             // correct
             console.log('correct');
+            this.score++;
+            this.showResult(true);
         }
         else {
             // not correct
             console.log('not correct');
+            this.showResult(false);
         }
+
+        // refresh stats/score
+        this.updateStats();
 
         // increase position
         this.increasePosition();
 
         // show next question
         this.showQuestion(questions[this.currentPosition]);
+
     },
 
     increasePosition: function () {
@@ -135,8 +146,47 @@ let app = {
             // Send back to beginning
             this.currentPosition = 0;
         }
+    },
+
+    updateStats: function () {
+        let scoreDiv = document.getElementById('score');
+        scoreDiv.textContent = `Your Score: ${this.score}`;
+    },
+
+    showResult: function (isCorrect) {
+        let resultDiv = document.getElementById('result');
+        let result = '';
+
+        // checks
+        if (isCorrect) {
+            result = 'Correct Answer!';
+        }
+        else {
+            // get the current question
+            let currentQuestion = questions[this.currentPosition];
+
+            // get the correct answer (index)
+            let correctAnswerIndex = currentQuestion.correctAnswer;
+
+            // get the correct answer (text)
+            let correctAnswerText = currentQuestion.alternatives[correctAnswerIndex];
+
+            result = `Incorrect! Correct answer: ${correctAnswerText}`;
+        }
+
+        resultDiv.textContent = result;
     }
+
+    // showFinalScore: function () {
+    //     let newScore = this.score / questions.length * 100;
+    //     console.log(newScore);
+
+    //     let gradeFinal = document.getElementById('test-grade');
+    //     gradeFinal.textContent = `Your final grade is ${newScore}%`;
+
+    // }
 };
 
 // initialize app
 app.start();
+
