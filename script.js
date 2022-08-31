@@ -1,15 +1,3 @@
-// let question = {
-//     title: '1. WHEN YOU SEE THIS SIGN, YOU MUST:',
-//     alternatives: [
-//         'A. Stop completely, check for pedestrians, and cross traffic.',
-//         'B. Slow down without coming to a complete stop.',
-//         'C. Stop completely and wait for a green light.',
-//         'D. Slow down and check for traffic.'
-//     ],
-//     correctAnswer: 0,
-//     questionImage: "/images/stop_sign.PNG"
-// };
-
 let questions = [
     {
         title: '1. WHEN YOU SEE THIS SIGN, YOU MUST:',
@@ -66,6 +54,17 @@ let questions = [
         correctAnswer: 2,
         questionImage: "/images/no_right_turn.PNG"
     },
+    {
+        title: '6. THIS SIGN MEANS:',
+        alternatives: [
+            'A. You must turn left or right',
+            'B. You are approaching a T-intersection',
+            'C. The road that you are on intersects with a divided highway',
+            'D. Designates an overpass above a divided highway'
+        ],
+        correctAnswer: 2,
+        questionImage: "/images/divided_highway_sign.PNG"
+    },
 ];
 
 let app = {
@@ -74,6 +73,7 @@ let app = {
         // keep track of the current position in the questions array
         this.currentPosition = 0;
         this.score = 0;
+        
 
         // get alternatives
         let alts = document.querySelectorAll('.alternative');
@@ -85,7 +85,7 @@ let app = {
             });
         });
 
-        // reefresh stats/score
+        // refresh stats/score
         this.updateStats();
         
         // show first question
@@ -119,6 +119,7 @@ let app = {
             console.log('correct');
             this.score++;
             this.showResult(true);
+            console.log(this.score);
         }
         else {
             // not correct
@@ -133,8 +134,9 @@ let app = {
         this.increasePosition();
 
         // show next question
-        this.showQuestion(questions[this.currentPosition]);
+        this.showQuestion(questions[this.currentPosition]);  
 
+        
     },
 
     increasePosition: function () {
@@ -144,6 +146,7 @@ let app = {
         // if reached the end of database
         if (this.currentPosition == questions.length) {
             // Send back to beginning
+            this.showScore();
             this.currentPosition = 0;
         }
     },
@@ -175,18 +178,16 @@ let app = {
         }
 
         resultDiv.textContent = result;
+    },
+
+    showScore: function () {
+        let newScore = this.score / questions.length * 100;
+       
+        let gradeFinal = document.getElementById('test-grade');
+
+        gradeFinal.textContent = `Your final grade is ${newScore}%`;
     }
-
-    // showFinalScore: function () {
-    //     let newScore = this.score / questions.length * 100;
-    //     console.log(newScore);
-
-    //     let gradeFinal = document.getElementById('test-grade');
-    //     gradeFinal.textContent = `Your final grade is ${newScore}%`;
-
-    // }
 };
 
 // initialize app
 app.start();
-
