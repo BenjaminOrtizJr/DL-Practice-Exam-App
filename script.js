@@ -65,6 +65,39 @@ let questions = [
         correctAnswer: 2,
         questionImage: "/images/divided_highway_sign.PNG"
     },
+    {
+        title: '7. YOU NEED TO USE EXTRA CAUTION WHEN DRIVING NEAR A PEDESTRIAN USING A WHITE CANE BECAUSE:',
+        alternatives: [
+            'A. He or she is deaf',
+            'B. He or she has a mental disability',
+            'C. He or she is blind',
+            'D. He or she has a walking problem'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '8. WHEN DRIVING NEAR A BLIND PEDESTRIAN WHO IS CARRYING A WHITE CANE OR USING A GUIDE DOG, YOU SHOULD:',
+        alternatives: [
+            'A. Slow down and be prepared to stop',
+            'B. Take the right-of-way',
+            'C. Proceed normally',
+            'D. Drive away quickly'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '9. IF THERE ARE NO SIGNALS AT A RAILROAD CROSSING, YOU SHOULD:',
+        alternatives: [
+            'A. Slow down and prepare to stop if you see or hear a train approaching',
+            'B. Proceed as quickly as possible over the tracks',
+            'C. Proceed through the crossing at a normal rate',
+            'D. Proceed slowly over the tracks'
+        ],
+        correctAnswer: 0,
+        questionImage: "/images/rail_road_crossing.PNG"
+    },
 ];
 
 let app = {
