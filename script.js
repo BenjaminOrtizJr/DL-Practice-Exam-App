@@ -90,6 +90,8 @@ let app = {
         
         // show first question
         this.showQuestion(questions[this.currentPosition]);
+
+        this.restartApp();
     },
 
     showQuestion: function (q) {
@@ -116,14 +118,11 @@ let app = {
 
         if (currentQuestion.correctAnswer == userSelected) {
             // correct
-            console.log('correct');
             this.score++;
             this.showResult(true);
-            console.log(this.score);
         }
         else {
             // not correct
-            console.log('not correct');
             this.showResult(false);
         }
 
@@ -134,7 +133,7 @@ let app = {
         this.increasePosition();
 
         // show next question
-        this.showQuestion(questions[this.currentPosition]);  
+        this.showQuestion(questions[this.currentPosition]);
 
         
     },
@@ -182,10 +181,18 @@ let app = {
 
     showScore: function () {
         let newScore = this.score / questions.length * 100;
+
        
         let gradeFinal = document.getElementById('test-grade');
+        gradeFinal.textContent = `Your final grade is ${parseFloat(newScore).toFixed(1)}%`;
+    },
 
-        gradeFinal.textContent = `Your final grade is ${newScore}%`;
+    restartApp: function () {
+        let restartBtn = document.getElementById('btn');
+
+        restartBtn.addEventListener('click', () => {
+            location.reload();
+        });
     }
 };
 
