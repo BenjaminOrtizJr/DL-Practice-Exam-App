@@ -98,6 +98,160 @@ let questions = [
         correctAnswer: 0,
         questionImage: "/images/rail_road_crossing.PNG"
     },
+    {
+        title: '10. YOU MAY DRIVE AROUND THE GATES AT A RAILROAD CROSSING:',
+        alternatives: [
+            'A. When the train has passed',
+            'B. Never',
+            'C. When the lights have stopped flashing',
+            'D. When other drivers drive around the gates'
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '11. IF YOU SEE THIS SIGN ABOVE YOUR LANE, YOU:',
+        alternatives: [
+            'A. May not exit the freeway in this lane',
+            'B. May continue through the interchange or exit the freeway in this lane',
+            'C. May stay in this lane and continue through the interchange',
+            'D. Must exit the freeway if you stay in this lane'
+        ],
+        correctAnswer: 3,
+        questionImage: "/images/highway_exit_sign.PNG"
+    },
+    {
+        title: '12. HIGHWAY AND EXPRESSWAY GUIDE SIGNS ARE:',
+        alternatives: [
+            'A. Orange with black letters',
+            'B. Green with white letters',
+            'C. Yellow with black letters',
+            'D. Red with white letters'
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '13. THIS SIGN IS USED TO WARN DRIVERS ABOUT:',
+        alternatives: [
+            'A. Upcoming intersections',
+            'B. Road construction',
+            'C. Road curves ahead',
+            'D. Changes in traffic lanes'
+        ],
+        correctAnswer: 2,
+        questionImage: "/images/road_curve_sign.PNG"
+    },
+    {
+        title: '14. THIS SIGN TELLS YOU THAT:',
+        alternatives: [
+            'A. No turns are allowed on this road',
+            'B. The road narrows ahead',
+            'C. There are a series of curves ahead',
+            'D. The road may be slippery when wet'
+        ],
+        correctAnswer: 2,
+        questionImage: "images/curvy_road_sign.PNG"
+    },
+    {
+        title: '15. THIS SIGN MEANS:',
+        alternatives: [
+            'A. Left curve ahead',
+            'B. Series of curves',
+            'C. S curved ahead',
+            'D. Slippery when wet'
+        ],
+        correctAnswer: 3,
+        questionImage: "images/slippery_road_sign.PNG"
+    },
+    {
+        title: '16. THIS SIGN INDICATES THAT:',
+        alternatives: [
+            'A. There is a steep hill ahead',
+            'B. No trucks are allowed on the hill',
+            'C. A logging road is ahead',
+            'D. There are trucks on the hill'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/steep_road_sign.PNG"
+    },
+    {
+        title: '17. A YELLOW AND BLACK DIAMOND-SHAPED SIGN:',
+        alternatives: [
+            'A. Warns you about conditions on or near the road',
+            'B. Helps direct you to cities and towns ahead',
+            'C. Tells you about traffic laws and regulations',
+            'D. Tells you about road construction ahead'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/road_condition_sign.PNG"
+    },
+    {
+        title: '18. THE SIGN WITH THIS SHAPE AND COLOR IS A _____________ SIGN.',
+        alternatives: [
+            'A. No passing zone',
+            'B. Wrong way',
+            'C. Railroad crossing',
+            'D. Stop'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/no_passing_zone.PNG"
+    },
+    {
+        title: '19. WHICH OF THESE SIGNS IS USED TO SHOW THE END OF A DIVIDED HIGHWAY?',
+        alternatives: [
+            'A. 2',
+            'B. 4',
+            'C. 3',
+            'D. 1'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/multiple_signs_1.PNG"
+    },
+    {
+        title: '20. THIS SIGN IS USED TO WARN DRIVERS ABOUT:',
+        alternatives: [
+            'A. Lane ends, merge left',
+            'B. Road curves ahead',
+            'C. Upcoming intersections',
+            'D. Road construction'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/lane_ends_sign.PNG"
+    },
+    {
+        title: '21. THIS SIGN SHOWS ONE TYPE OF:',
+        alternatives: [
+            'A. Intersection',
+            'B. Road curve',
+            'C. Right turn',
+            'D. Lane change'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/intersection_sign.PNG"
+    },
+    {
+        title: '22. THIS SIGN SHOWS ONE TYPE OF:',
+        alternatives: [
+            'A. Right turn',
+            'B. Intersection',
+            'C. Lane change',
+            'D. Road curve'
+        ],
+        correctAnswer: 1,
+        questionImage: "images/intersection_sign_2.PNG"
+    },
+    {
+        title: '23. WHAT SHOULD YOU BE MOST CONCERNED ABOUT WHEN YOU SEE THIS SIGN?',
+        alternatives: [
+            'A. Driving with your headlights out of alignment because one side of your car is higher than the other',
+            'B. Damaging a tire, if you drift onto the shoulder',
+            'C. Hydroplaning, if the shoulder has water on it',
+            'D. Losing control of your vehicle, if you drift onto the shoulder, because of a drop off'
+        ],
+        correctAnswer: 3,
+        questionImage: "images/lost_control_sign.PNG"
+    },
 ];
 
 let app = {
