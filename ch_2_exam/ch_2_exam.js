@@ -52,7 +52,7 @@ let questions = [
             'D. No right turn'
         ],
         correctAnswer: 0,
-        questionImage: "/images/no_uTurn_sign.PNG"
+        questionImage: "//images/no_uTurn_sign.PNG"
     },
     {
         title: '5. THIS SIGN MEANS:',
@@ -162,7 +162,7 @@ let questions = [
             'D. The road may be slippery when wet'
         ],
         correctAnswer: 2,
-        questionImage: "images/curvy_road_sign.PNG"
+        questionImage: "/images/road_curve_sign.PNG"
     },
     {
         title: '15. THIS SIGN MEANS:',
@@ -184,7 +184,7 @@ let questions = [
             'D. There are trucks on the hill'
         ],
         correctAnswer: 0,
-        questionImage: "images/steep_road_sign.PNG"
+        questionImage: "/images/steep_road_sign.PNG"
     },
     {
         title: '17. A YELLOW AND BLACK DIAMOND-SHAPED SIGN:',
