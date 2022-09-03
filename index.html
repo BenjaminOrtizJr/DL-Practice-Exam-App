@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- /Styles -->
     <title>PA Drivers License Practice Exam</title>
 </head>
 <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+    <a href="#home" class="active">PA Class C Practice Exam</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#chapter2">Chapter 2 Practice Exam</a>
+        <a href="#chapter3">Chapter 3 Practice Exam</a>
+        <a href="#chapter4">Chapter 4 Practice Exam</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>
+    
     <div id="wrapper">
         <div id="image-content"></div>
         <div id="title"></div>
@@ -18,11 +36,14 @@
             <li class="alternative"></li>
         </ul>
         <div id="result"></div>
-            <div id="score"></div>
-            <div id="test-grade"></div>
+        <br>
+        <div id="score"></div>
+        <br>
+        <div id="test-grade"></div>
+        <br>
     </div>
     
-        <button id="btn">Restart Test</button>
+        <button id="btn">Restart</button>
     
     <script src="script.js"></script>
 </body>

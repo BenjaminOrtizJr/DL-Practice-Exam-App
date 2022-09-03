@@ -1,3 +1,14 @@
+// Navigation
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+// App 
 let questions = [
     {
         title: '1. WHEN YOU SEE THIS SIGN, YOU MUST:',
@@ -252,6 +263,380 @@ let questions = [
         correctAnswer: 3,
         questionImage: "images/lost_control_sign.PNG"
     },
+    {
+        title: '24. WHAT IS THE MEANING OF THIS SIGN?',
+        alternatives: [
+            'A. The traffic signal ahead is red',
+            'B. The traffic signal ahead is broken',
+            'C. The traffic signal ahead is green',
+            'D. There is a traffic signal ahead'
+        ],
+        correctAnswer: 3,
+        questionImage: "images/traffic_signal_sign.PNG"
+    },
+    {
+        title: '25. THIS SIGN MEANS:',
+        alternatives: [
+            'A. Divided highway ends',
+            'B. One-way street begins',
+            'C. One-way street ends',
+            'D. Divided highway begins'
+        ],
+        correctAnswer: 3,
+        questionImage: "images/divided_highway_begins.PNG"
+    },
+    {
+        title: '26. FROM TOP TO BOTTOM, THE FOLLOWING IS THE PROPER ORDER FOR TRAFFIC LIGHTS:',
+        alternatives: [
+            'A. Red, yellow, green',
+            'B. Red, green, yellow',
+            'C. Green, red, yellow',
+            'D. Green, yellow, red'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/traffic_signal_sign_2.PNG"
+    },
+    {
+        title: '27. IF A GREEN ARROW TURNS INTO A GREEN LIGHT, YOU:',
+        alternatives: [
+            'A. May still turn but you must yield to oncoming traffic',
+            'B. May no longer turn and must proceed straight',
+            'C. Still have the right of way to turn',
+            'D. No longer have to turn the way the arrow indicates'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '28. A STEADY YELLOW LIGHT AT AN INTERSECTION MEANS:',
+        alternatives: [
+            'A. Go',
+            'B. Yield to other cars',
+            'C. Slow down and prepare to stop',
+            'D. Stop'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '29. A FLASHING YELLOW LIGHT MEANS THAT YOU SHOULD:',
+        alternatives: [
+            'A. Slow down and proceed with care',
+            'B. Continue through if the way is clear',
+            'C. Stop and proceed when a green light appears',
+            'D. Stop and proceed when the way is clear'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '30. YOU MUST STOP WHEN YOU SEE A:',
+        alternatives: [
+            'A. Flashing red light',
+            'B. Steady yellow light',
+            'C. Yellow arrow',
+            'D. Flashing yellow light'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '31. A STEADY GREEN LIGHT AT AN INTERSECTION MEANS THAT YOU:',
+        alternatives: [
+            'A. Must slow down and prepare to stop',
+            'B. Must stop and check for oncoming traffic before proceeding',
+            'C. May drive through the intersection if the road is clear',
+            'D. May not turn right'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '32. A STEADY YELLOW LIGHT MEANS THAT A _______ LIGHT WILL SOON APPEAR.',
+        alternatives: [
+            'A. Flashing yellow',
+            'B. Steady green',
+            'C. Steady red',
+            'D. Flashing red'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '33. YOU MAY CONTINUE CAREFULLY THROUGH A YELLOW LIGHT IF:',
+        alternatives: [
+            'A. There is an emergency vehicle crossing your lane',
+            'B. There are no pedestrians crossing',
+            'C. You are turning right',
+            'D. You are within the intersection'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '34. YOU MAY TURN LEFT AT A RED LIGHT IF:',
+        alternatives: [
+            'A. There is no traffic coming in the opposite direction',
+            'B. You are turning from a two-way street onto a one-way street',
+            'C. You are turning from a one-way street onto another one-way street',
+            'D. The car in front of you turns left'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '35. IF A TRAFFIC LIGHT IS BROKEN OR NOT FUNCTIONING YOU SHOULD:',
+        alternatives: [
+            'A Stop and wait for it to be repaired',
+            'B Stop and wait for a police officer to arrive',
+            'C. Continue as if it were a four-way stop sign',
+            'D. Continue as you normally would'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '36. YOU MAY TURN RIGHT ON RED IF YOU:',
+        alternatives: [
+            'A. Stop first and check for traffic and pedestrians',
+            'B. Have a right turn red arrow',
+            'C. Are in the left lane',
+            'D. Slow down first'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '37. WHEN MAKING A RIGHT TURN ON A GREEN LIGHT, YOU MUST:',
+        alternatives: [
+            'A. Maintain normal driving speed',
+            'B. Stop and look for oncoming traffic',
+            'C. Yield to pedestrians',
+            'D. Increase your normal driving speed'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '38. THE SPEED LIMIT IS _______ MILES PER HOUR WHEN THE YELLOW LIGHTS ARE FLASHING ON THE SCHOOL ZONE SPEED SIGN.',
+        alternatives: [
+            'A. 25',
+            'B. 15',
+            'C. 20',
+            'D. 35'
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '39. A FLASHING RED LIGHT AT A RAILROAD CROSSING MEANS:',
+        alternatives: [
+            'A. Stop, do not proceed until signals are completed',
+            'B. Slow down and proceed if clear',
+            'C. Proceed with caution',
+            'D. You have the right-of-way'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '40. THIS GREEN ARROW ON A LANE USE CONTROL SIGNAL MEANS THAT:',
+        alternatives: [
+            'A. You may use this lane',
+            'B. No traffic is allowed in this lane',
+            'C. You have the right-of-way',
+            'D. You must merge into this lane'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/use_lane_sign.PNG"
+    },
+    {
+        title: '41. THIS SIGN MEANS:',
+        alternatives: [
+            'A. Pedestrians ahead',
+            'B. End of construction zone',
+            'C. School crossing ahead',
+            'D. Flagger ahead'
+        ],
+        correctAnswer: 3,
+        questionImage: "images/flagger_ahead_sign.PNG"
+    },
+    {
+        title: '42. THIS SIGN MEANS THAT:',
+        alternatives: [
+            'A. A community service group is picking up trash along the highway ahead',
+            'B. Workers are on or very close to the road in the work zone ahead',
+            'C. Children are at play ahead',
+            'D. There is a pedestrian crosswalk ahead'
+        ],
+        correctAnswer: 2,
+        questionImage: "images/workers_close_sign.PNG"
+    },
+    {
+        title: '43. WHEN AN ARROW PANEL IN A WORK ZONE SHOWS EITHER OF THE FOLLOWING PATTERNS, IT MEANS:',
+        alternatives: [
+            'A. The bulbs on the sign are burned out',
+            'B. Drive with caution',
+            'C. Changes lanes immediately',
+            'D. Tune your radio to a station that gives traffic updates'
+        ],
+        correctAnswer: 1,
+        questionImage: "images/drive_caution_sign.PNG"
+    },
+    {
+        title: '44. THE CENTER LANE IN THE ILLUSTRATION IS USED FOR:',
+        alternatives: [
+            'A. Regular travel',
+            'B. Left turns only',
+            'C. Passing only',
+            'D. Emergency vehicles only'
+        ],
+        correctAnswer: 1,
+        questionImage: "images/left_turn_only_sign.PNG"
+    },
+    {
+        title: '45. YOU MAY PASS IF THE LINE DIVIDING TWO LANES IS A ___________ LINE.',
+        alternatives: [
+            'A. Broken white',
+            'B. Double solid yellow',
+            'C. Solid yellow',
+            'D. Solid white'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '46. LANES OF TRAFFIC MOVING IN THE SAME DIRECTION ARE DIVIDED BY ____ LINES.',
+        alternatives: [
+            'A. Yellow',
+            'B. White',
+            'C. Red',
+            'D. Black'
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '47. YOU MAY NOT PASS ANOTHER CAR ON EITHER SIDE OF A _______ CENTERLINE.',
+        alternatives: [
+            'A. Combination solid and broken yellow',
+            'B. Single broken yellow',
+            'C. Double solid yellow',
+            'D. Single broken white'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '48. YOU MAY CROSS SOLID YELLOW LINES:',
+        alternatives: [
+            'A. To pass traffic moving in the same direction',
+            'B. During daylight hours only',
+            'C. At any time',
+            'D. When making turns'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '49. THE ROAD EDGE ON THE RIGHT SIDE IS MARKED BY A ___________ LINE.',
+        alternatives: [
+            'A. Broken white',
+            'B. Solid yellow',
+            'C. Solid white',
+            'D. Broken yellow audio'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '50. LANES OF TRAFFIC MOVING IN THE OPPOSITE DIRECTION ARE DIVIDED BY ____ LINES.',
+        alternatives: [
+            'A. White',
+            'B. Red',
+            'C. Black',
+            'D. Yellow'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '51. WHEN YOU SEE THIS BLACK AND YELLOW SIGN, IT MEANS:',
+        alternatives: [
+            'A. The road to the right is for one-way traffic only',
+            'B. Detour to the right because of road construction',
+            'C. Slow down because the road ahead changes direction at an extreme angle',
+            'D. There is a cross road ahead on your right'
+        ],
+        correctAnswer: 2,
+        questionImage: "images/slow_down_road_change_sign.PNG"
+    },
+    {
+        title: '52. WHEN YOU SEE THIS SIGN, IT MEANS:',
+        alternatives: [
+            'A. There is an object on the roadway',
+            'B. Traffic is coming from the right',
+            'C. The road is curving sharply to the left',
+            'D. There is a merge point ahead'
+        ],
+        correctAnswer: 2,
+        questionImage: "images/sharp_curve_left.PNG"
+    },
+    {
+        title: '53. AT AN INTERSECTION CONTROLLED BY A STOP SIGN, IF YOU CAN’T GET A GOOD VIEW OF CROSS-STREET TRAFFIC WHEN YOU STOP BEHIND THE WHITE TOP BAR PAINTED ON THE PAVEMENT, YOU SHOULD:',
+        alternatives: [
+            'A. Wait 5 seconds, then proceed.',
+            'B. Sound your horn before proceeding',
+            'C. Put down your windows, listen for traffic, and then proceed',
+            'D. Pull forward slowly, check for traffic and pedestrians, and proceed when clear'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '54. THE POSTED SPEED LIMITS SHOW:',
+        alternatives: [
+            'A. The minimum legal speed limit',
+            'B. The exact speed at which you must travel to avoid a ticket',
+            'C. The maximum safe speed under ideal road and weather conditions',
+            'D. The maximum safe speed under all road conditions'
+        ],
+        correctAnswer: 2,
+        questionImage: "images/max_safe_speed.PNG"
+    },
+    {
+        title: '55. A HIGHWAY WITH TWO-WAY TRAFFIC IS MARKED BY WHICH OF THESE SIGNS?',
+        alternatives: [
+            'A. 1',
+            'B. 2',
+            'C. 3',
+            'D. 4'
+        ],
+        correctAnswer: 2,
+        questionImage: "images/multiple_signs_1.PNG"
+    },
+    {
+        title: '56. FROM THE CENTER LANE, WHAT MANEUVERS CAN YOU PERFORM?',
+        alternatives: [
+            'A. Make left turns',
+            'B. Make U-turns',
+            'C. Pass slower-moving traffic',
+            'D. All of the above'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/left_turns_only_2.PNG"
+    },
+    {
+        title: '57. WHICH OF THESE SIGNS MEANS THAT DRIVERS SHOULD KEEP TO THE RIGHT?',
+        alternatives: [
+            'A. 2',
+            'B. 1',
+            'C. 3',
+            'D. 4'
+        ],
+        correctAnswer: 0,
+        questionImage: "images/keep_right_sign.PNG"
+    },
 ];
 
 let app = {
@@ -334,12 +719,13 @@ let app = {
             // Send back to beginning
             this.showScore();
             this.currentPosition = 0;
+            
         }
     },
 
     updateStats: function () {
         let scoreDiv = document.getElementById('score');
-        scoreDiv.textContent = `Your Score: ${this.score}`;
+        scoreDiv.textContent = `Your Score: ${this.score}/${questions.length}`;
     },
 
     showResult: function (isCorrect) {
@@ -371,7 +757,7 @@ let app = {
 
        
         let gradeFinal = document.getElementById('test-grade');
-        gradeFinal.textContent = `Your final grade is ${parseFloat(newScore).toFixed(1)}%`;
+        gradeFinal.textContent = `Final grade is ${parseFloat(newScore).toFixed(1)}%`;
     },
 
     restartApp: function () {

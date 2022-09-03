@@ -1,13 +1,64 @@
 body {
     font-family: arial;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    display:"block";
 }
+
+/* Navigation */
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: rgb(21, 61, 161);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: .2px solid white;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: black;
+  color: #ddd;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: rgb(21, 61, 161);
+  color: white;
+}
+
+/* App Body */
 
 #wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
 }
 
 #wrapper div, #wrapper ul {
@@ -40,27 +91,35 @@ ul {
     opacity: 0.8;
 }
 
-#result {
-    font-weight: bold;
+#result, #test-grade {
+    font-weight: 900;
 }
 
 #score, #result {
     color: black;
 }
 
+#score {
+  background-color: rgb(17, 226, 79);
+  border: .2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: 900;
+}
+
 #btn {
     border: none;
     border-radius: 3px;
-    background-color: rgb(39, 95, 235);
-    color: white;
+    color: blue;
     width: 100px;
-    float: right;
-    margin-top: 20%;
+    margin-top: 5px;
     padding: 5px;
+    margin-right: 5px;
+    font-weight: 900
 }
 
 #btn:hover {
-    background-color: rgb(178, 183, 196);
-    color: rgb(34, 31, 31);
+    
+    color: red;
     cursor: pointer;
 }
