@@ -52,7 +52,7 @@ let questions = [
             'D. No right turn'
         ],
         correctAnswer: 0,
-        questionImage: "//images/no_uTurn_sign.PNG"
+        questionImage: "/images/no_uTurn_sign.PNG"
     },
     {
         title: '5. THIS SIGN MEANS:',
@@ -173,7 +173,7 @@ let questions = [
             'D. Slippery when wet'
         ],
         correctAnswer: 3,
-        questionImage: "images/slippery_road_sign.PNG"
+        questionImage: "/images/slippery_road_sign.PNG"
     },
     {
         title: '16. THIS SIGN INDICATES THAT:',
@@ -195,7 +195,7 @@ let questions = [
             'D. Tells you about road construction ahead'
         ],
         correctAnswer: 0,
-        questionImage: "images/road_condition_sign.PNG"
+        questionImage: "/images/road_condition_sign.PNG"
     },
     {
         title: '18. THE SIGN WITH THIS SHAPE AND COLOR IS A _____________ SIGN.',
@@ -206,7 +206,7 @@ let questions = [
             'D. Stop'
         ],
         correctAnswer: 0,
-        questionImage: "images/no_passing_zone.PNG"
+        questionImage: "/images/no_passing_zone.PNG"
     },
     {
         title: '19. WHICH OF THESE SIGNS IS USED TO SHOW THE END OF A DIVIDED HIGHWAY?',
@@ -217,7 +217,7 @@ let questions = [
             'D. 1'
         ],
         correctAnswer: 0,
-        questionImage: "images/multiple_signs_1.PNG"
+        questionImage: "/images/multiple_signs_1.PNG"
     },
     {
         title: '20. THIS SIGN IS USED TO WARN DRIVERS ABOUT:',
@@ -228,7 +228,7 @@ let questions = [
             'D. Road construction'
         ],
         correctAnswer: 0,
-        questionImage: "images/lane_ends_sign.PNG"
+        questionImage: "/images/lane_ends_sign.PNG"
     },
     {
         title: '21. THIS SIGN SHOWS ONE TYPE OF:',
@@ -239,7 +239,7 @@ let questions = [
             'D. Lane change'
         ],
         correctAnswer: 0,
-        questionImage: "images/intersection_sign.PNG"
+        questionImage: "/images/intersection_sign.PNG"
     },
     {
         title: '22. THIS SIGN SHOWS ONE TYPE OF:',
@@ -250,7 +250,7 @@ let questions = [
             'D. Road curve'
         ],
         correctAnswer: 1,
-        questionImage: "images/intersection_sign_2.PNG"
+        questionImage: "/images/intersection_sign_2.PNG"
     },
     {
         title: '23. WHAT SHOULD YOU BE MOST CONCERNED ABOUT WHEN YOU SEE THIS SIGN?',
@@ -261,7 +261,7 @@ let questions = [
             'D. Losing control of your vehicle, if you drift onto the shoulder, because of a drop off'
         ],
         correctAnswer: 3,
-        questionImage: "images/lost_control_sign.PNG"
+        questionImage: "/images/lost_control_sign.PNG"
     },
     {
         title: '24. WHAT IS THE MEANING OF THIS SIGN?',
@@ -272,7 +272,7 @@ let questions = [
             'D. There is a traffic signal ahead'
         ],
         correctAnswer: 3,
-        questionImage: "images/traffic_signal_sign.PNG"
+        questionImage: "/images/traffic_signal_sign.PNG"
     },
     {
         title: '25. THIS SIGN MEANS:',
@@ -283,7 +283,7 @@ let questions = [
             'D. Divided highway begins'
         ],
         correctAnswer: 3,
-        questionImage: "images/divided_highway_begins.PNG"
+        questionImage: "/images/divided_highway_begins.PNG"
     },
     {
         title: '26. FROM TOP TO BOTTOM, THE FOLLOWING IS THE PROPER ORDER FOR TRAFFIC LIGHTS:',
@@ -294,7 +294,7 @@ let questions = [
             'D. Green, yellow, red'
         ],
         correctAnswer: 0,
-        questionImage: "images/traffic_signal_sign_2.PNG"
+        questionImage: "/images/traffic_signal_sign_2.PNG"
     },
     {
         title: '27. IF A GREEN ARROW TURNS INTO A GREEN LIGHT, YOU:',
@@ -448,7 +448,7 @@ let questions = [
             'D. You must merge into this lane'
         ],
         correctAnswer: 0,
-        questionImage: "images/use_lane_sign.PNG"
+        questionImage: "/images/use_lane_sign.PNG"
     },
     {
         title: '41. THIS SIGN MEANS:',
@@ -459,7 +459,7 @@ let questions = [
             'D. Flagger ahead'
         ],
         correctAnswer: 3,
-        questionImage: "images/flagger_ahead_sign.PNG"
+        questionImage: "/images/flagger_ahead_sign.PNG"
     },
     {
         title: '42. THIS SIGN MEANS THAT:',
@@ -470,7 +470,7 @@ let questions = [
             'D. There is a pedestrian crosswalk ahead'
         ],
         correctAnswer: 2,
-        questionImage: "images/workers_close_sign.PNG"
+        questionImage: "/images/workers_close_sign.PNG"
     },
     {
         title: '43. WHEN AN ARROW PANEL IN A WORK ZONE SHOWS EITHER OF THE FOLLOWING PATTERNS, IT MEANS:',
@@ -481,7 +481,7 @@ let questions = [
             'D. Tune your radio to a station that gives traffic updates'
         ],
         correctAnswer: 1,
-        questionImage: "images/drive_caution_sign.PNG"
+        questionImage: "/images/drive_caution_sign.PNG"
     },
     {
         title: '44. THE CENTER LANE IN THE ILLUSTRATION IS USED FOR:',
@@ -492,7 +492,7 @@ let questions = [
             'D. Emergency vehicles only'
         ],
         correctAnswer: 1,
-        questionImage: "images/left_turn_only_sign.PNG"
+        questionImage: "/images/left_turn_only_sign.PNG"
     },
     {
         title: '45. YOU MAY PASS IF THE LINE DIVIDING TWO LANES IS A ___________ LINE.',
@@ -569,7 +569,7 @@ let questions = [
             'D. There is a cross road ahead on your right'
         ],
         correctAnswer: 2,
-        questionImage: "images/slow_down_road_change_sign.PNG"
+        questionImage: "/images/slow_down_road_change_sign.PNG"
     },
     {
         title: '52. WHEN YOU SEE THIS SIGN, IT MEANS:',
@@ -580,7 +580,7 @@ let questions = [
             'D. There is a merge point ahead'
         ],
         correctAnswer: 2,
-        questionImage: "images/sharp_curve_left.PNG"
+        questionImage: "/images/sharp_curve_left.PNG"
     },
     {
         title: '53. AT AN INTERSECTION CONTROLLED BY A STOP SIGN, IF YOU CAN’T GET A GOOD VIEW OF CROSS-STREET TRAFFIC WHEN YOU STOP BEHIND THE WHITE TOP BAR PAINTED ON THE PAVEMENT, YOU SHOULD:',
@@ -602,7 +602,7 @@ let questions = [
             'D. The maximum safe speed under all road conditions'
         ],
         correctAnswer: 2,
-        questionImage: "images/max_safe_speed.PNG"
+        questionImage: "/images/max_safe_speed.PNG"
     },
     {
         title: '55. A HIGHWAY WITH TWO-WAY TRAFFIC IS MARKED BY WHICH OF THESE SIGNS?',
@@ -613,7 +613,7 @@ let questions = [
             'D. 4'
         ],
         correctAnswer: 2,
-        questionImage: "images/multiple_signs_1.PNG"
+        questionImage: "/images/multiple_signs_1.PNG"
     },
     {
         title: '56. FROM THE CENTER LANE, WHAT MANEUVERS CAN YOU PERFORM?',
@@ -624,7 +624,7 @@ let questions = [
             'D. All of the above'
         ],
         correctAnswer: 0,
-        questionImage: "images/left_turns_only_2.PNG"
+        questionImage: "/images/left_turns_only_2.PNG"
     },
     {
         title: '57. WHICH OF THESE SIGNS MEANS THAT DRIVERS SHOULD KEEP TO THE RIGHT?',
@@ -635,7 +635,7 @@ let questions = [
             'D. 4'
         ],
         correctAnswer: 0,
-        questionImage: "images/keep_right_sign.PNG"
+        questionImage: "/images/keep_right_sign.PNG"
     },
 ];
 
@@ -757,7 +757,7 @@ let app = {
 
        
         let gradeFinal = document.getElementById('test-grade');
-        gradeFinal.textContent = `Final grade is ${parseFloat(newScore).toFixed(1)}%`;
+        gradeFinal.textContent = `Final Grade: ${parseFloat(newScore).toFixed(1)}%`;
     },
 
     restartApp: function () {
