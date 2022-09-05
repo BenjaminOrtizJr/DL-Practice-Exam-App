@@ -769,6 +769,83 @@ let questions = [
         correctAnswer: 3,
         questionImage: ""
     },
+    {
+        title: '70. WHEN ENTERING A HIGHWAY FROM AN ENTRANCE RAMP, YOU SHOULD GENERALLY: ',
+        alternatives: [
+            'A. Enter above the speed of traffic to get ahead ',
+            'B. Enter slowly to avoid other vehicles ',
+            'C. Stop first, then slowly enter traffic ',
+            'D. Accelerate to the speed of traffic'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '71. WHEN EXITING A HIGHWAY, YOU SHOULD SLOW DOWN:',
+        alternatives: [
+            'A. On the main road, just before the exit lane ',
+            'B. Once you see the toll booth ',
+            'C. Once you have moved into the exit lane',
+            'D. When you first see the exit sign'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '72. WHEN DRIVING ON A FREEWAY ENTRANCE RAMP, YOU SHOULD LOOK FOR A GAP IN FREEWAY TRAFFIC BY:',
+        alternatives: [
+            'A. Looking in the inside rearview mirror only',
+            'B. Looking in the sideview mirror only',
+            'C. Looking in both rearview and sideview mirrors',
+            'D. Looking in your mirrors and turning your head to look over your shoulder'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '73. IF YOU WANT TO GET OFF OF A FREEWAY, BUT YOU MISSED YOUR EXIT, YOU SHOULD:',
+        alternatives: [
+            'A. Go to the next exit, and get off of the freeway there ',
+            'B. Make a U-turn through the median',
+            'C. Pull onto the shoulder and back your car to the exit',
+            'D. Flag down a police officer for an escort back to your exit'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '74. YOU ARE WAITING TO TURN LEFT AT A MULTILANE INTERSECTION, AND OPPOSING TRAFFIC IS BLOCKING YOUR VIEW, YOU SHOULD: ',
+        alternatives: [
+            'A. Accelerate rapidly when the first lane you need to cross is clear',
+            'B. Wait until you can see all the lanes you need to cross before going ahead with your turn',
+            'C. Wait for the opposing driver to wave you across the intersection ',
+            'D. Edge your car into each lane of opposing traffic as soon as it clears '
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '75. WHEN NO SIGNS, SIGNALS, OR POLICE TELL YOU WHAT TO DO AT AN INTERSECTION, THE LAW STATES THAT:',
+        alternatives: [
+            'A. Drivers on the right must yield to drivers on the left',
+            'B. There are no laws stating who must yield',
+            'C. Drivers going straight must yield to drivers turning left at the intersection',
+            'D. Drivers turning left must yield to drivers going straight through the intersection'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '75. WHEN NO SIGNS, SIGNALS, OR POLICE TELL YOU WHAT TO DO AT AN INTERSECTION, THE LAW STATES THAT:',
+        alternatives: [
+            'A. Drivers on the right must yield to drivers on the left',
+            'B. There are no laws stating who must yield',
+            'C. Drivers going straight must yield to drivers turning left at the intersection',
+            'D. Drivers turning left must yield to drivers going straight through the intersection'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
 ];
 
 let app = {
