@@ -53,9 +53,6 @@ body {
 
 /* Home Page */
 
-#myLinks-home {
-  padding-top: 1em;
-}
 
 #myLinks-home > a {
   display: block;
@@ -149,6 +146,29 @@ ul {
 }
 
 /* Footer */
-/* #footer {
-  
-} */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #007DC1;
+  text-align: center; 
+}
+
+#pro-img {
+  width: 28px;
+  border-radius: 50%;
+  margin-bottom: -8px;
+}
+
+#link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#link:hover {
+  color: black;
+  cursor: pointer;
+}

@@ -54,8 +54,139 @@ let questions = [
         correctAnswer: 0,
         questionImage: ""
     },
+    {
+        title: '5. IT IS AGAINST THE LAW FOR ANYONE UNDER THE AGE OF 21 TO ______ ALCOHOL',
+        alternatives: [
+            'A. Wear clothing advertising',
+            'B. Be in the presence of',
+            'C. Consume',
+            'D. Serve'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '6. IT IS AGAINST THE LAW FOR ANYONE UNDER THE AGE OF 21 TO ______ ALCOHOL',
+        alternatives: [
+            'A. Wear clothing advertising',
+            'B. Possess',
+            'C. Serve',
+            'D. Be in the presence of'
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '7. IT IS AGAINST THE LAW FOR ANYONE UNDER THE AGE OF 21 TO ______ ALCOHOL.',
+        alternatives: [
+            'A. Serve',
+            'B. Wear clothing advertising',
+            'C. Be in the presence of',
+            'D. Transport'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '8. ONE OF THE PENALTIES FOR DRIVING UNDER THE INFLUENCE OF ALCOHOL IS A(N):',
+        alternatives: [
+            'A. 5 – year driver’s license suspension',
+            'B. $100.00 fine',
+            'C. Attendance to Alcohol Highway Safety School',
+            'D. 12 – hour sentence in jail'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '9. IF YOU ARE ARRESTED FOR DRIVING UNDER THE INFLUENCE OF ALCOHOL AND YOU REFUSE TO TAKE THE BLOOD TEST, YOU WILL RECIEVE A:',
+        alternatives: [
+            'A. Drug counseling treatment',
+            'B. Sentence of one day in jail',
+            'C. Driver’s License Suspension',
+            'D. $300.00 fine'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '10. IF A POLICE OFFICER REQUIRES YOU TO TAKE A BLOOD, BREATH, OR URINE TEST, YOU:',
+        alternatives: [
+            'A. May choose the test you prefer',
+            'B. Must sign a consent form',
+            'C. May refuse if underage',
+            'D. Must take the test, or your license will be suspended'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '11. FOR A FIRST CONVICTION FOR DRIVING UNDER THE INFLUENCE AT ANY BLOOD ALCOHOL CONCENTRATION LEVEL, YOU COULD:',
+        alternatives: [
+            'A. Lose your license for up to 5 years',
+            'B. Be required to conduct a public education class on the dangers of drunk driving',
+            'C. Be required to drive with a restricted occupational license',
+            'D. Pay a fine of at least $300'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '12. IF UNDER 21 YEARS OF AGE YOU ARE CONSIDERED TO BE DRIVING WHILE UNDER THE INFLUENCE IF YOUR BLOOD ALCOHOL LEVEL IS:',
+        alternatives: [
+            'A. .08% or higher',
+            'B. .10% or higher',
+            'C. .05% or higher',
+            'D. .02% or higher'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '13. IF YOU ARE UNDER AGE 21 AND ARE CONVICTED OF DRIVING UNDER THE INFLUENCE OF ALCOHOL, YOU WILL RECEIVE A ____ LICENSE SUSPENSION FOR A FIRST OFFENSE.',
+        alternatives: [
+            'AA. 60-Day',
+            'B. 30-Day',
+            'C. 6-Month',
+            'D. 1-Year'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '14. IF YOU ARE UNDER AGE 21, AND ARE CONVICTED OF CARRYING A FALSE ID CARD, YOU WILL BE REQUIRED TO PAY A $500 FINE AND YOUR LICENSE WILL BE SUSPENDED FOR 90 DAYS.',
+        alternatives: [
+            'A. Only if your blood alcohol content (BAC) is .02% or higher',
+            'B. Even if you were not driving',
+            'C. Only if you were driving at the time of arrest',
+            'D. Only if your blood alcohol content (BAC) is .02% or higher and you were driving at the time of arrest'
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '15. THE ZERO TOLERANCE LAW REDUCED THE BLOOD ALCOHOL CONTENT (BAC) FROM .08% TO ____ FOR DRIVERS UNDER 21 TO BE CHARGED WITH DRIVING UNDER THE INFLUENCE.',
+        alternatives: [
+            'A. .02%',
+            'B. .05%',
+            'C. .07%',
+            'D. .00%'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '16. IF YOU ARE STOPPED BY A POLICE OFFICER, YOU SHOULD:',
+        alternatives: [
+            'A. Unbuckle your seat belt and lower your window',
+            'B. Get your paperwork ready before the officer reaches your car',
+            'C. Stay in your vehicle with your hands on the steering wheel, and wait for the officer to approach you',
+            'D. Get out of your car and walk toward the patrol car'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
 ];
-
 
 
 let app = {
