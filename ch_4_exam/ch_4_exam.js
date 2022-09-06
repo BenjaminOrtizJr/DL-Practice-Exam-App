@@ -185,7 +185,7 @@ let questions = [
         ],
         correctAnswer: 2,
         questionImage: ""
-    },
+    }
 ];
 
 
