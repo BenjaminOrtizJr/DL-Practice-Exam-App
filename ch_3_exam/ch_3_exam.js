@@ -836,16 +836,391 @@ let questions = [
         questionImage: ""
     },
     {
-        title: '75. WHEN NO SIGNS, SIGNALS, OR POLICE TELL YOU WHAT TO DO AT AN INTERSECTION, THE LAW STATES THAT:',
+        title: '76. “HIGHWAY HYPNOSIS” IS A DRIVER CONDITION THAT CAN RESULT FROM:',
         alternatives: [
-            'A. Drivers on the right must yield to drivers on the left',
-            'B. There are no laws stating who must yield',
-            'C. Drivers going straight must yield to drivers turning left at the intersection',
-            'D. Drivers turning left must yield to drivers going straight through the intersection'
+            'A. Staring at the roadway for long periods of time',
+            'B. Frequent rest stops',
+            'C. Too much sleep the night before your trip',
+            'D. Short trips on expressways'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '77. WHEN PASSING ON A MULTI-LANE HIGHWAY: ',
+        alternatives: [
+            'A. Be sure the passing lane is clear',
+            'B. Pass only on the right',
+            'C. Watch for oncoming traffic',
+            'D. There is no need to signal'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '78. THE “FOUR-SECOND RULE” REFERS TO HOW ONE SHOULD: ',
+        alternatives: [
+            'A. Yield to other cars',
+            'B. Turn at stop signs ',
+            'C. Follow another car',
+            'D. Cross an intersection'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '79. IT IS BEST TO KEEP A SPACE CUSHION:',
+        alternatives: [
+            'A. Only in back of your vehicle',
+            'B. Only on the left and right side of your vehicle',
+            'C. Only in front of the vehicle',
+            'D. On all sides of the vehicle'
         ],
         correctAnswer: 3,
         questionImage: ""
     },
+    {
+        title: '80. ALLOWING A SPACE CUSHION IS IMPORTANT BECAUSE IT:',
+        alternatives: [
+            'A. Prevents distractions from other vehicles ',
+            'B. Allows you time to react to situations',
+            'C. Keeps traffic flowing at a safe pace',
+            'D. Keeps other drivers alert '
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '81. ALLOW A LARGER SPACE CUSHION WHEN STOPPING: ',
+        alternatives: [
+            'A. On an up-hill ',
+            'B. At an intersection',
+            'C. At a stop sign ',
+            'D. At a toll plaza '
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '82. WHEN MAKING A TURN, YOU MUST _____ YOUR SPEED. ',
+        alternatives: [
+            'A. Increase',
+            'B. Maintain',
+            'C. Vary',
+            'D. Reduce'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '83. WHEN DRIVING IN TRAFFIC, IT IS SAFEST TO: ',
+        alternatives: [
+            'A. Fluctuate your speed to keep alert',
+            'B. Drive faster than the flow of traffic',
+            'C. Drive slower than the flow of traffic ',
+            'D. Drive with the flow of traffic'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '84. THE MAXIMUM SPEED LIMIT IN THIS STATE IS ____ MILES PER HOUR . ',
+        alternatives: [
+            'A. 55',
+            'B. 50',
+            'C. 60',
+            'D. 65'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '85. DRIVE BELOW THE POSTED SPEED LIMIT WHEN:',
+        alternatives: [
+            'A. Anything makes conditions less than perfect',
+            'B. Others drive below the speed limit',
+            'C. Entering a highway where there are other cars ',
+            'D. You are on a four lane road '
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '86. THE AMOUNT OF SPACE YOU NEED TO CROSS TRAFFIC DEPENDS ON THE: ',
+        alternatives: [
+            'A. Road and weather conditions and oncoming traffic',
+            'B. Presence of a stop sign',
+            'C. Use of your turn signals ',
+            'D. Cars behind you'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '87. YOUR ABILITY TO STOP IS AFFECTED BY: ',
+        alternatives: [
+            'A. Signal lights ',
+            'B. Other cars on the road',
+            'C. The time of day',
+            'D. The condition of the road'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '88. WHICH OF THE FOLLOWING IS TRUE ABOUT THE SPEED AT WHICH YOU TRAVEL?',
+        alternatives: [
+            'A. The safe speed to drive depends on many conditions ',
+            'B. Driving slowly is always safer',
+            'C. The speed limit is always a safe speed ',
+            'D. Accelerating is always dangerous'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '89. TO PREPARE FOR ANYTHING COMING UP IN THE ROAD AHEAD, YOU SHOULD:',
+        alternatives: [
+            'A. Continually scan the entire road and roadsides',
+            'B. Stare straight ahead at all times',
+            'C. Drive with your left foot resting lightly on the brake pedal',
+            'D. Maintain focus toward the middle of the road'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '90. AT HIGHWAY SPEEDS, ON A DRY ROAD, A SAFE FOLLOWING DISTANCE IS AT LEAST:',
+        alternatives: [
+            'A. 3 seconds of following distance from the car ahead of you',
+            'B. 2 seconds of following distance from the car ahead of you',
+            'C. 4 seconds of following distance from the car ahead of you',
+            'D. 2 car lengths of following distance from the car ahead of you '
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '91. WHAT CAN YOU DO TO AVOID THE NEED TO MAKE EMERGENCY (OR “PANIC”) STOPS WHILE DRIVING IN TRAFFIC? ',
+        alternatives: [
+            'A. Honk your horn to make others aware of your presence',
+            'B. Look ahead and maintain a safe following distance',
+            'C. Drive in the right lane only',
+            'D. Drive slower than the flow of traffic '
+        ],
+        correctAnswer: 1,
+        questionImage: ""
+    },
+    {
+        title: '92. WHEN FACED WITH ONE ONCOMING CAR TO THE LEFT AND A BICYCLIST TO THE RIGHT,YOU SHOULD:',
+        alternatives: [
+            'A. Pull onto the shoulder',
+            'B. Split the difference',
+            'C. Let the car pass and then pass the bike',
+            'D. Pass the bike quickly'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '93. IF AN ONCOMING DRIVER IS HEADING TOWARD YOU IN YOUR LANE, YOU SHOULD:',
+        alternatives: [
+            'A. Steer right, blow your horn, and accelerate',
+            'B. Steer left, blow your horn, and brake',
+            'C. Steer right, blow your horn, and brake',
+            'D. Stay in the center of your lane, blow your horn, and brake'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '94. IF THE REAR OF YOUR VEHICLE STARTS TO SKID LEFT, YOU SHOULD:',
+        alternatives: [
+            'A. Steer left',
+            'B. Hit your brakes',
+            'C. Accelerate',
+            'D. Steer righ'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '95. THE MOST EFFECTIVE THING YOU CAN DO TO REDUCE YOUR RISK OF GETTING INJURED OR KILLED IN A TRAFFIC CRASH IS: ',
+        alternatives: [
+            'A. Wear your seat belt ',
+            'B. Limit your driving to week days',
+            'C. Stay in the right lane on multi-lane highways',
+            'D. Limit your driving to times between 3:00 p.m. and 6:00 p.m'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '96. WHEN DRIVING ON SLICK ROADS, YOU SHOULD:',
+        alternatives: [
+            'A. Take turns more slowly',
+            'B. Change lanes quickly',
+            'C. Accelerate quickly',
+            'D. Brake hard'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '97. WHICH OF THE FOLLOWING IS TRUE ABOUT DRIVING ON A WET ROADWAY?',
+        alternatives: [
+            'A. As you drive faster, your tires become less effective ',
+            'B. Water does not affect cars with good tires ',
+            'C. Deeper water is less dangerous ',
+            'D. As you decrease your speed, the roadway becomes more slippery'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '98. WHEN DRIVING ON SLIPPERY ROADS, YOU SHOULD:',
+        alternatives: [
+            'A. Use alternate routes ',
+            'B. Drive as you would on dry roads ',
+            'C. Increase your following distance ',
+            'D. Avoid crossing bridges or intersections'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '99. WHEN DRIVING ON WET ROADS, YOU SHOULD:',
+        alternatives: [
+            'A. Drive the speed limit',
+            'B. Drive slightly faster than the speed limit',
+            'C. Drive 5 to 10 miles below the speed limit',
+            'D. Stay close to the vehicle ahead'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '100. WHEN DRIVING ON WET ROADS, YOU SHOULD: ',
+        alternatives: [
+            'A. Increase following distance to 5 or 6 seconds ',
+            'B. Decrease following distance to 2 seconds ',
+            'C. Not be concerned about following distance',
+            'D. Maintain the 4-second following distance rule '
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '101. ROADS FREEZE MORE QUICKLY WHEN THEY ARE:',
+        alternatives: [
+            'A. Flat ',
+            'B. Curvy ',
+            'C. In the sun',
+            'D. Shaded'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '102. ROADS BECOME VERY SLIPPERY:',
+        alternatives: [
+            'A. When it has been raining for an hour or more',
+            'B. The day after it rains',
+            'C. For the first 10 to 15 minutes of a rain storm',
+            'D. Right after the rain has stopped'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '103. HYDROPLANING IS USUALLY CAUSED BY: ',
+        alternatives: [
+            'A. Excessive stops',
+            'B. Sudden stops',
+            'C. Sudden turns',
+            'D. Excessive speed'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '104. HYDROPLANING CAN BE HELPED BY DRIVING: ',
+        alternatives: [
+            'A. Through shallow water',
+            'B. Faster',
+            'C. Slower ',
+            'D. Through deep water'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '105. WHEN DRIVING IN FOG, YOU SHOULD USE YOUR _________. ',
+        alternatives: [
+            'A. Low beam headlights',
+            'B. High beam headlights',
+            'C. Parking lights',
+            'D. Hazard flashers'
+        ],
+        correctAnswer: 0,
+        questionImage: ""
+    },
+    {
+        title: '106. COMPARED TO DRIVING DURING THE DAY, DRIVING AT NIGHT IS: ',
+        alternatives: [
+            'A. Less dangerous',
+            'B. No more of less dangerous ',
+            'C. More dangerous ',
+            'D. Easier on your eyes'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '107. ANYTHING THAT REQUIRES YOU TO _______ COULD CAUSE YOU TO CRASH. ',
+        alternatives: [
+            'A. Take your eyes off the road',
+            'B. Take your hands off the wheel',
+            'C. Take your attention away from the driving task ',
+            'D. All of the above'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '108. DISTRACTED DRIVERS ARE AT A GREATER RISK OF A CRASH WHEN THEY ARE USING WHICH OF THE FOLLOWING:',
+        alternatives: [
+            'A. CD player',
+            'B. Radio ',
+            'C. Cell phone',
+            'D. All of the above'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+    {
+        title: '109. WHEN YOU ARE IN A LINE OF TRAFFIC THAT IS CROSSING A RAILROAD TRACK THAT HAS NO SIGNALS OR GATES: ',
+        alternatives: [
+            'A. You have the right of way and do not need to check for trains',
+            'B. You may pass slower drivers crossing the track',
+            'C. You need to make sure there is space to get all the way across the tracks without stopping, before you start to cross',
+            'D. All of the above'
+        ],
+        correctAnswer: 2,
+        questionImage: ""
+    },
+    {
+        title: '110. WHEN APPROACHING A STOPPED SCHOOL BUS WITH ITS RED LIGHTS FLASHING AND ITS STOP ARM EXTENDED, YOU MUST:',
+        alternatives: [
+            'A. Stop 5 feet away from the bus',
+            'B. Stop only if you see children are present',
+            'C. Stop and remain stopped until it appears safe to proceed',
+            'D. Stop and remain stopped until the red lights stop flashing and the stop arm has been withdrawn'
+        ],
+        correctAnswer: 3,
+        questionImage: ""
+    },
+
 ];
 
 let app = {
