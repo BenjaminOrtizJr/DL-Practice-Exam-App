@@ -1247,7 +1247,7 @@ let app = {
         // show first question
         this.showQuestion(questions[this.currentPosition]);
 
-        this.restartApp();
+        // this.restartApp();
     },
 
     showQuestion: function (q) {
@@ -1302,6 +1302,7 @@ let app = {
         if (this.currentPosition == questions.length) {
             // Send back to beginning
             this.showScore();
+            this.restartApp();
             this.currentPosition = 0;
             
         }
@@ -1341,15 +1342,48 @@ let app = {
 
        
         let gradeFinal = document.getElementById('test-grade');
-        gradeFinal.textContent = `Final Grade: ${parseFloat(newScore).toFixed(1)}%`;
+        gradeFinal.textContent = `Final Grade: ${parseFloat(newScore).toFixed(1)}% (${this.score}/${questions.length})`;
     },
 
     restartApp: function () {
-        let restartBtn = document.getElementById('btn');
+        
+         if (this.currentPosition == questions.length) {
+            let gradeContainer = document.getElementById('grade-container');
+            let gradeBorder = document.getElementById('grade-border');
 
-        restartBtn.addEventListener('click', () => {
-            location.reload();
-        });
+            gradeContainer.style.backgroundColor = '#007DC1';
+            gradeContainer.style.position = 'absolute';
+            gradeContainer.style.top = '0';
+            gradeContainer.style.left = '0';
+            gradeContainer.style.bottom = '0';
+            gradeContainer.style.right = '0';
+
+            gradeBorder.style.border = '10px solid rgb(79, 236, 6)';
+            gradeBorder.style.borderRadius = '50%';
+            gradeBorder.style.height = '280px';
+            gradeBorder.style.width = '300px';
+            gradeBorder.style.margin = '0 auto';
+            gradeBorder.style.display = 'flex';
+            gradeBorder.style.flexDirection = 'column';
+            gradeBorder.style.justifyContent = 'center';
+            gradeBorder.style.alignItems = 'center';
+            gradeBorder.style.marginTop = '10em';
+            gradeBorder.style.keyframes = 'bounce 2s infinite';
+            
+
+            let restartBtn = document.createElement('button');
+            restartBtn.textContent = 'Restart';
+
+            let reButton = document.getElementById('btn');
+            reButton.appendChild(restartBtn);
+
+            restartBtn.addEventListener('click', () => {
+                location.reload();
+            });
+
+            let homeButton = document.getElementById('btn2');
+            homeButton.innerHTML = `<button><a href="/home.html">Home</a></button>`;
+        }
     }
 };
 
