@@ -469,7 +469,7 @@ let questions = [
             'C. Children are at play ahead',
             'D. There is a pedestrian crosswalk ahead'
         ],
-        correctAnswer: 2,
+        correctAnswer: 1,
         questionImage: "/images/workers_close_sign.PNG"
     },
     {
