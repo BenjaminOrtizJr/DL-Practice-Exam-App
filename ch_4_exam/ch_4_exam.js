@@ -6,7 +6,7 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
-}
+};
 
 // App 
 let questions = [
@@ -145,7 +145,7 @@ let questions = [
     {
         title: '13. IF YOU ARE UNDER AGE 21 AND ARE CONVICTED OF DRIVING UNDER THE INFLUENCE OF ALCOHOL, YOU WILL RECEIVE A ____ LICENSE SUSPENSION FOR A FIRST OFFENSE.',
         alternatives: [
-            'AA. 60-Day',
+            'A. 60-Day',
             'B. 30-Day',
             'C. 6-Month',
             'D. 1-Year'
@@ -196,7 +196,6 @@ let app = {
         this.currentPosition = 0;
         this.score = 0;
         
-
         // get alternatives
         let alts = document.querySelectorAll('.alternative');
 
@@ -212,8 +211,6 @@ let app = {
         
         // show first question
         this.showQuestion(questions[this.currentPosition]);
-
-        // this.restartApp();
     },
 
     showQuestion: function (q) {
@@ -256,8 +253,6 @@ let app = {
 
         // show next question
         this.showQuestion(questions[this.currentPosition]);
-
-        
     },
 
     increasePosition: function () {
@@ -270,7 +265,6 @@ let app = {
             this.showScore();
             this.restartApp();
             this.currentPosition = 0;
-            
         }
     },
 
@@ -306,7 +300,6 @@ let app = {
     showScore: function () {
         let newScore = this.score / questions.length * 100;
 
-       
         let gradeFinal = document.getElementById('test-grade');
         gradeFinal.textContent = `Final Score: ${parseFloat(newScore).toFixed(1)}% (${this.score}/${questions.length})`;
     },
@@ -324,6 +317,7 @@ let app = {
             gradeContainer.style.bottom = '0';
             gradeContainer.style.right = '0';
 
+            // final grade container styles
             gradeBorder.style.border = '10px solid rgb(79, 236, 6)';
             gradeBorder.style.borderRadius = '50%';
             gradeBorder.style.height = '280px';
@@ -336,7 +330,6 @@ let app = {
             gradeBorder.style.marginTop = '10em';
             gradeBorder.style.keyframes = 'bounce 2s infinite';
             
-
             let restartBtn = document.createElement('button');
             restartBtn.textContent = 'Restart';
 

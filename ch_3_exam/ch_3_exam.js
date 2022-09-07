@@ -6,7 +6,7 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
-}
+};
 
 // App 
 let questions = [
@@ -1230,7 +1230,6 @@ let app = {
         this.currentPosition = 0;
         this.score = 0;
         
-
         // get alternatives
         let alts = document.querySelectorAll('.alternative');
 
@@ -1246,8 +1245,6 @@ let app = {
         
         // show first question
         this.showQuestion(questions[this.currentPosition]);
-
-        // this.restartApp();
     },
 
     showQuestion: function (q) {
@@ -1303,8 +1300,7 @@ let app = {
             // Send back to beginning
             this.showScore();
             this.restartApp();
-            this.currentPosition = 0;
-            
+            this.currentPosition = 0;    
         }
     },
 
@@ -1340,7 +1336,6 @@ let app = {
     showScore: function () {
         let newScore = this.score / questions.length * 100;
 
-       
         let gradeFinal = document.getElementById('test-grade');
         gradeFinal.textContent = `Final Grade: ${parseFloat(newScore).toFixed(1)}% (${this.score}/${questions.length})`;
     },
@@ -1351,6 +1346,7 @@ let app = {
             let gradeContainer = document.getElementById('grade-container');
             let gradeBorder = document.getElementById('grade-border');
 
+            // final grade container styles
             gradeContainer.style.backgroundColor = '#007DC1';
             gradeContainer.style.position = 'absolute';
             gradeContainer.style.top = '0';
@@ -1370,7 +1366,6 @@ let app = {
             gradeBorder.style.marginTop = '10em';
             gradeBorder.style.keyframes = 'bounce 2s infinite';
             
-
             let restartBtn = document.createElement('button');
             restartBtn.textContent = 'Restart';
 
