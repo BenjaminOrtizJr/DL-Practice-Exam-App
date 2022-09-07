@@ -301,7 +301,7 @@ let app = {
         let newScore = this.score / questions.length * 100;
 
         let gradeFinal = document.getElementById('test-grade');
-        gradeFinal.textContent = `Final Score: ${parseFloat(newScore).toFixed(1)}% (${this.score}/${questions.length})`;
+        gradeFinal.textContent = `Final Score: ${parseFloat(newScore).toFixed(0)}% (${this.score}/${questions.length})`;
     },
 
     restartApp: function () {
@@ -341,7 +341,7 @@ let app = {
             });
 
             let homeButton = document.getElementById('btn2');
-            homeButton.innerHTML = `<button><a href="/home.html">Home</a></button>`;
+            homeButton.innerHTML = `<a href="/home.html"><button>Home</button></a>`;
         }
     }
 };

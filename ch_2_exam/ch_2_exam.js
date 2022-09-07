@@ -751,9 +751,8 @@ let app = {
     showScore: function () {
         let newScore = this.score / questions.length * 100;
 
-       
         let gradeFinal = document.getElementById('test-grade');
-        gradeFinal.textContent = `Final Grade: ${parseFloat(newScore).toFixed(1)}% (${this.score}/${questions.length})`;
+        gradeFinal.textContent = `Final Grade: ${parseFloat(newScore).toFixed(0)}% (${this.score}/${questions.length})`;
     },
 
     restartApp: function () {

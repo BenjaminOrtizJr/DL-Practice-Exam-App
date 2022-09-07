@@ -122,6 +122,13 @@ ul {
   color: black;
 }
 
+#incorrect {
+  background-color: rgb(230, 76, 76);
+  border: .2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 #score {
   background-color: rgb(17, 226, 79);
   border: .2px solid white;
@@ -148,7 +155,7 @@ ul {
   cursor: pointer;
 }
 
-#btn2 > button {
+#btn2 > a > button {
   border: none;
   background-color: #e6760e;
   border-radius: 3px;
@@ -160,7 +167,7 @@ ul {
   font-weight: 900
 }
 
-#btn2 > button:hover {
+#btn2 > a > button:hover {
   background-color: whitesmoke;
   color: #e6760e;
   cursor: pointer;
