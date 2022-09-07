@@ -162,7 +162,7 @@ let questions = [
             'D. The road may be slippery when wet'
         ],
         correctAnswer: 2,
-        questionImage: "/images/road_curve_sign.PNG"
+        questionImage: "/images/curvy_road_sign.PNG"
     },
     {
         title: '15. THIS SIGN MEANS:',
