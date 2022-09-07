@@ -13,10 +13,10 @@ let questions = [
     {
         title: '1. WHEN YOU SEE THIS SIGN, YOU MUST:',
         alternatives: [
-            'A. Stop completely, check for pedestrians, and cross traffic.',
-            'B. Slow down without coming to a complete stop.',
-            'C. Stop completely and wait for a green light.',
-            'D. Slow down and check for traffic.'
+            'A. Stop completely, check for pedestrians, and cross traffic',
+            'B. Slow down without coming to a complete stop',
+            'C. Stop completely and wait for a green light',
+            'D. Slow down and check for traffic'
         ],
         correctAnswer: 0,
         questionImage: "/images/stop_sign.PNG"
