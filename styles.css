@@ -51,6 +51,10 @@ body {
 
 /* Home Page */
 
+#myLinks-home {
+  margin-top: 40px;
+}
+
 #myLinks-home > a {
   display: block;
   color: #007DC1;
@@ -63,6 +67,11 @@ body {
 #myLinks-home > a:hover {
   background-color: #ddd;
   color: black;
+}
+
+#home-page-img {
+  margin-top: 40px;
+  
 }
 
 /* About Page */
