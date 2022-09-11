@@ -318,7 +318,7 @@ let app = {
             gradeContainer.style.right = '0';
 
             // final grade container styles
-            gradeBorder.style.border = '10px solid rgb(79, 236, 6)';
+            gradeBorder.style.border = '20px solid rgb(79, 236, 6)';
             gradeBorder.style.borderRadius = '50%';
             gradeBorder.style.height = '300px';
             gradeBorder.style.width = '320px';
