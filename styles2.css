@@ -1,0 +1,59 @@
+/* Global Settings */
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+/* Header/Nav Section */
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0.2px solid #3E72AE;
+}
+
+.logo-container img {
+    width: 280px;
+    padding: 14px 0 0 14px;
+}
+
+.main-nav {
+    width: 300px;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 14px 0 0;
+}
+
+.nav-links-container li {
+    list-style: none;
+}
+
+.nav-links-container li a {
+    text-decoration: none;
+    color: #3E72AE;
+    font-size: 18px;
+}
+
+.nav-links-container li a:hover {
+    color: red;
+}
+
+/* Media Queries */
+
+/* 
+* 320px — 480px: Mobile devices
+* 481px — 768px: iPads, Tablets
+* 769px — 1024px: Small screens, laptops
+* 1025px — 1200px: Desktops, large screens
+* 1201px and more —  Extra large screens, TV 
+*/
