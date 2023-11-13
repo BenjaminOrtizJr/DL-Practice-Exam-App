@@ -1377,7 +1377,7 @@ let app = {
             });
 
             let homeButton = document.getElementById('btn2');
-            homeButton.innerHTML = `<a href="/home.html"><button>Home</button></a>`;
+            homeButton.innerHTML = `<a href="/home.html"><button>Main Menu</button></a>`;
         }
     }
 };

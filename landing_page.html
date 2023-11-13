@@ -10,6 +10,7 @@
     <meta name="copyright" content="Benjamin Ortiz Jr.">
     <meta name="description" content="This website is a general practice exam for the Class C Driver's License knowledge test.">
     <title>DL Practice Exam</title>
+
     <!-- Styles -->
     <link rel="stylesheet" href="/styles2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,18 +19,40 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon/favicon-16x16.png">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header-container">
-            <div class="logo-container"><img src="/images//juniorDriverLogo.png" alt=""></div>
-            <nav class="main-nav">
-                <ul class="nav-links-container">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Exam">Exam</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+    <!-- Top Navigation Menu -->
+    <nav class="topnav">
+        <a href="/landing_page.html" class="logo">DL Class C Practice Exam</a>
+
+    <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="/landing_page.html">Home</a>
+            <a href="/home.html">Exam</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <!-- Header/Hero/Call To Action -->
+    <header class="header-container">
+        <div class="header-text_container">
+            <h1 class="header-text">Class C Driver's License Practice Exam</h1>
+            <p>"Drive with confidence! Ace your Class C license test with our practice exam. Start now for road-ready success!"</p>
+            <a href="/home.html"><button class="header-button">TAKE EXAM</button></a>
+        </div>
+        <div class="header-image_container">
+            <a class="header-image_link" href="/home.html"><img class="header_image" src="/images/landing_page_hero.jpg" alt="tests and exams"></a>
+        </div>
+    </header>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p><a id="link" href="https://www.ortekdigital.com" target="_blank"><img id="pro-img" src="/images/ortek_logo.jpg"> Ortek Digital | &copy; 2023</a></p>
+    </footer>
+    <script src="script_home.js"></script>
 </body>
 </html>

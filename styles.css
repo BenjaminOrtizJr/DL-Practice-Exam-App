@@ -1,6 +1,5 @@
 body {
     font-family: arial;
-    text-align: center;
     margin: 0;
     padding: 0;
     display:"block";
@@ -10,43 +9,91 @@ body {
   border-radius: 50%;
 }
 
-/* Navigation */
+/* Mobile Navigation */
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    text-align: center;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: #007DC1;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+
+  /* .topnav a:hover {
+    background-color: black;
+    color: #ddd;
+  } */
+
+  .logo {
+    background-color: #007DC1;
+    color: white;
+  }
 }
 
-.topnav #myLinks {
-  display: none;
-}
+/* Navigation Laptops/Desktops */
 
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
+@media only screen and (min-width: 769px){
+  .topnav {
+    display: flex;
+    justify-content:  space-between;
+    background-color: #007DC1;
+    padding: 14px 16px;
+  }
 
-.topnav a.icon {
-  background: #007DC1;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  border-left: .2px solid white;
-}
+  .logo {
+    background-color: #007DC1;
+    color: white;
+    text-decoration: none;
+  }
 
-.topnav a:hover {
-  background-color: black;
-  color: #ddd;
-}
+  .logo {
+    background-color: #007DC1;
+    color: white;
+    text-decoration: none;
+  }
 
-.active {
-  background-color: #007DC1;
-  color: white;
+  .logo:hover {
+    color: #66E689;
+    cursor: pointer;
+  }
+
+  #myLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 20px;
+  }
+
+  #myLinks a:hover {
+    color: #66E689;
+    cursor: pointer;
+  }
+
+  .topnav a.icon {
+    display: none;
+  }
 }
 
 /* Home Page */
@@ -91,6 +138,7 @@ body {
 #about-back-btn:hover {
   background-color: rgb(201, 200, 200);
 }
+
 /* App Body */
 
 #wrapper {
@@ -99,6 +147,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
+  text-align: center;
 }
 
 #wrapper div, #wrapper ul {
@@ -123,7 +172,7 @@ ul {
 
 .alternative {
   list-style-type: none;
-  margin-bottom: 4px;
+  margin-bottom: 14px;
   padding: 10px;
   background: #E6E6E6;
   text-align: left;
@@ -142,6 +191,7 @@ ul {
 #test-grade {
   color: white;
   font-size: 30px;
+  text-align: center;
 }
 
 #score, #result {
@@ -233,6 +283,6 @@ ul {
 }
 
 #link:hover {
-  color: black;
+  color: #66E689;
   cursor: pointer;
 }
