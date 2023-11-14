@@ -103,6 +103,7 @@ body {
   text-decoration: none;
   font-weight: 900;
   cursor: pointer;
+  text-align: left;
 }
 
 #myLinks-home > a:hover {
@@ -253,7 +254,7 @@ ul {
 
 /* Footer */
 
-#footer {
+/* #footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -278,4 +279,4 @@ ul {
 #link:hover {
   color: black;
   cursor: pointer;
-}
+} */
