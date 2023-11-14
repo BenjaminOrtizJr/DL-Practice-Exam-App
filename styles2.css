@@ -66,6 +66,11 @@
     text-decoration: none;
   }
 
+  .logo:hover {
+    color: black;
+    cursor: pointer;
+  }
+
   #myLinks a {
     color: white;
     text-decoration: none;
@@ -74,7 +79,7 @@
   }
 
   #myLinks a:hover {
-    color: #66E689;
+    color: black;
     cursor: pointer;
   }
 
@@ -216,7 +221,7 @@
     box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.53);
     -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.53);
     -moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.53);
-    color: #66E689;
+    color: black;
   }
 
   .header-image_container {

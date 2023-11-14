@@ -69,7 +69,7 @@ body {
   }
 
   .logo:hover {
-    color: #66E689;
+    color: black;
     cursor: pointer;
   }
 
@@ -81,7 +81,7 @@ body {
   }
 
   #myLinks a:hover {
-    color: #66E689;
+    color: black;
     cursor: pointer;
   }
 
