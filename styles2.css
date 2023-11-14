@@ -264,31 +264,3 @@
   color: black;
   cursor: pointer;
 }
-
-/* #footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #007DC1;;
-  text-align: center;
-  border-top: 1px solid #007DC1;
-}
-
-#pro-img {
-  width: 28px;
-  border-radius: 50%;
-  margin-bottom: -8px;
-}
-
-#link {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#link:hover {
-  color: #66E689;
-  cursor: pointer;
-} */
