@@ -38,13 +38,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    
   }
-
-  /* .topnav a:hover {
-    background-color: black;
-    color: #ddd;
-  } */
 
   .logo {
     background-color: #007DC1;
@@ -118,7 +112,6 @@ body {
 
 #home-page-img {
   margin-top: 40px;
-  
 }
 
 /* About Page */
@@ -286,31 +279,3 @@ ul {
   color: black;
   cursor: pointer;
 }
-
-/* #footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #007DC1;;
-  text-align: center;
-  border-top: 1px solid #007DC1;
-}
-
-#pro-img {
-  width: 28px;
-  border-radius: 50%;
-  margin-bottom: -8px;
-}
-
-#link {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#link:hover {
-  color: #66E689;
-  cursor: pointer;
-} */

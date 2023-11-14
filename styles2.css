@@ -97,7 +97,6 @@
 
   .header-text {
     font-size: 30px;
-    /* color: #007DC1; */
   }
 
   .header-text_container > p {
@@ -121,7 +120,6 @@
   .header-image_container {
     text-align: center;
     padding-top: 20px;
-    /* padding-bottom: 10px; */
   }
 
   .header-image_link > img {
@@ -133,17 +131,12 @@
 
 @media only screen and (min-width: 414px) and (max-width: 768px) {
 
-  /* .header-container {
-    padding-bottom: 10px;
-  } */
-
   .header-text_container {
     padding: 20px 28px 0 28px;
   }
 
   .header-text {
     font-size: 45px;
-    /* color: #007DC1; */
   }
 
   .header-text_container > p {
@@ -167,7 +160,6 @@
   .header-image_container {
     text-align: center;
     padding-top: 20px;
-    /* padding-bottom: 10px; */
   }
 
   .header-image_link {
@@ -300,13 +292,3 @@
   color: #66E689;
   cursor: pointer;
 } */
-
-/* Media Queries */
-
-/* 
-* 320px — 480px: Mobile devices
-* 481px — 768px: iPads, Tablets
-* 769px — 1024px: Small screens, laptops
-* 1025px — 1200px: Desktops, large screens
-* 1201px and more —  Extra large screens, TV 
-*/
