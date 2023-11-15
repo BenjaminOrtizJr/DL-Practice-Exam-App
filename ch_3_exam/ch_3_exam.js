@@ -1346,7 +1346,8 @@ let app = {
             let gradeContainer = document.getElementById('grade-container');
             let gradeBorder = document.getElementById('grade-border');
 
-            // final grade container styles
+             // final grade container styles
+            
             gradeContainer.style.backgroundColor = '#007DC1';
             gradeContainer.style.position = 'absolute';
             gradeContainer.style.top = '0';
@@ -1363,7 +1364,7 @@ let app = {
             gradeBorder.style.flexDirection = 'column';
             gradeBorder.style.justifyContent = 'center';
             gradeBorder.style.alignItems = 'center';
-            gradeBorder.style.marginTop = '10em';
+            gradeBorder.style.marginTop = '8em';
             gradeBorder.style.keyframes = 'bounce 2s infinite';
             
             let restartBtn = document.createElement('button');
@@ -1377,7 +1378,7 @@ let app = {
             });
 
             let homeButton = document.getElementById('btn2');
-            homeButton.innerHTML = `<a href="/home.html"><button>Main Menu</button></a>`;
+            homeButton.innerHTML = `<a href="/App/home.html"><button>Main Menu</button></a>`;
         }
     }
 };
