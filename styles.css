@@ -97,7 +97,7 @@ body {
 /* Home Page */
 
 #myLinks-home {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 #home-page-img {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 /* About Page */
@@ -148,7 +148,7 @@ body {
   align-items: center;
   padding-top: 10px;
   text-align: center;
-  height: 100vh;
+  
 }
 
 #wrapper div, #wrapper ul {
