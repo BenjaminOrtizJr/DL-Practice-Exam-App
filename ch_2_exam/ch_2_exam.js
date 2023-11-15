@@ -764,7 +764,7 @@ let app = {
             // final grade container styles
             
             gradeContainer.style.backgroundColor = '#007DC1';
-            gradeContainer.style.position = 'absolute';
+            gradeContainer.style.position = 'fixed';
             gradeContainer.style.top = '0';
             gradeContainer.style.left = '0';
             gradeContainer.style.bottom = '0';

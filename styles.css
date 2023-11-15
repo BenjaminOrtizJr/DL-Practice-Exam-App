@@ -97,10 +97,10 @@ body {
 
 /* Home Page */
 
-/* #myLinks-home {
+#myLinks-home {
   padding-top: 20px;
   
-} */
+}
 
 #myLinks-home > a {
   display: block;
@@ -118,9 +118,9 @@ body {
   color: black;
 }
 
-/* #home-page-img {
-  margin-top: 20px;
-} */
+#home-page-img {
+  padding-top: 20px;
+}
 
 /* About Page */
 
@@ -163,6 +163,7 @@ ul {
 
 #image-content, img {
   max-width: 280px;
+  padding-top: 10px;
 }
 
 #title {
