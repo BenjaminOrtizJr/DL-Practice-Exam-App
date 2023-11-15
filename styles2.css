@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   display:"block";
+  min-height: 100vh;
+  position: relative;
 }
 
 #favicon {
@@ -130,6 +132,7 @@
   .header-image_link > img {
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 30px;
   }
 
 }
@@ -174,6 +177,7 @@
   .header-image_link > img {
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 30px;
   }
 
 }
@@ -241,14 +245,15 @@
   }
 }
 
-/* Footer */
+/* Footer  */
 
 #footer {
-  position: relative;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
+  margin-top: auto;
+  height: 3.5rem;
 }
 
 #pro-img {
