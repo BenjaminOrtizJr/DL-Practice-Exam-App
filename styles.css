@@ -148,6 +148,7 @@ body {
   align-items: center;
   padding-top: 10px;
   text-align: center;
+  height: 100vh;
 }
 
 #wrapper div, #wrapper ul {
@@ -257,32 +258,3 @@ ul {
 #btn2 > button > a:hover {
   color: #e6760e;
 }
-
-/* Footer */
-
-/* #footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
-#pro-img {
-  width: 28px;
-  border-radius: 50%;
-  position: relative;
-  top: 8px;
-}
-
-#link {
-  color: #007DC1;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#link:hover {
-  color: black;
-  cursor: pointer;
-} */
