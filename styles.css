@@ -30,6 +30,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     display: block;
+    font-weight: 900;
   }
 
   .topnav a.icon {
@@ -43,6 +44,7 @@ body {
   .logo {
     background-color: #007DC1;
     color: white;
+    font-weight: 900;
   }
 }
 
@@ -60,6 +62,7 @@ body {
     background-color: #007DC1;
     color: white;
     text-decoration: none;
+    font-weight: 900;
   }
 
   .logo {
@@ -78,6 +81,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     padding-right: 20px;
+    font-weight: 900;
   }
 
   #myLinks a:hover {
@@ -92,9 +96,10 @@ body {
 
 /* Home Page */
 
-/* #myLinks-home {
-  margin-top: 40px;
-} */
+#myLinks-home {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 
 #myLinks-home > a {
   display: block;
@@ -113,7 +118,7 @@ body {
 }
 
 #home-page-img {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /* About Page */
@@ -141,7 +146,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   text-align: center;
 }
 
