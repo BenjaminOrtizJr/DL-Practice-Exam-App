@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display:"block";
+    min-height: 100vh;
 }
 
 #favicon {
@@ -96,10 +97,10 @@ body {
 
 /* Home Page */
 
-#myLinks-home {
-  /* padding-top: 20px; */
+/* #myLinks-home {
+  padding-top: 20px;
   
-}
+} */
 
 #myLinks-home > a {
   display: block;
@@ -117,9 +118,9 @@ body {
   color: black;
 }
 
-#home-page-img {
-  /* margin-top: 20px; */
-}
+/* #home-page-img {
+  margin-top: 20px;
+} */
 
 /* About Page */
 
@@ -257,4 +258,8 @@ ul {
 
 #btn2 > button > a:hover {
   color: #e6760e;
+}
+
+#grade-container {
+  background-color: white;
 }

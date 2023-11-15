@@ -310,18 +310,19 @@ let app = {
             let gradeContainer = document.getElementById('grade-container');
             let gradeBorder = document.getElementById('grade-border');
 
-            gradeContainer.style.backgroundColor = '#007DC1';
-            gradeContainer.style.position = 'absolute';
+            gradeContainer.style.background = '#007DC1';
+            gradeContainer.style.position = 'fixed';
             gradeContainer.style.top = '0';
             gradeContainer.style.left = '0';
             gradeContainer.style.bottom = '0';
             gradeContainer.style.right = '0';
+            gradeContainer.style.height = '100vh';
 
             // final grade container styles
             gradeBorder.style.border = '20px solid rgb(79, 236, 6)';
             gradeBorder.style.borderRadius = '50%';
-            gradeBorder.style.height = '270px';
-            gradeBorder.style.width = '290px';
+            gradeBorder.style.height = '260px';
+            gradeBorder.style.width = '280px';
             gradeBorder.style.margin = '0 auto';
             gradeBorder.style.display = 'flex';
             gradeBorder.style.flexDirection = 'column';
