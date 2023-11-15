@@ -772,8 +772,8 @@ let app = {
 
             gradeBorder.style.border = '20px solid rgb(79, 236, 6)';
             gradeBorder.style.borderRadius = '50%';
-            gradeBorder.style.height = '260px';
-            gradeBorder.style.width = '280px';
+            gradeBorder.style.height = '270px';
+            gradeBorder.style.width = '290px';
             gradeBorder.style.margin = '0 auto';
             gradeBorder.style.display = 'flex';
             gradeBorder.style.flexDirection = 'column';
