@@ -56,7 +56,8 @@ body {
     display: flex;
     justify-content:  space-between;
     background-color: #007DC1;
-    padding: 14px 16px;
+    padding-top: 20px;
+    width: 100%;
   }
 
   .logo {
@@ -64,6 +65,8 @@ body {
     color: white;
     text-decoration: none;
     font-weight: 900;
+    padding: 0 0 20px 6px;
+    font-size: 20px;
   }
 
   .logo {
@@ -80,7 +83,7 @@ body {
   #myLinks a {
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     padding-right: 20px;
     font-weight: 900;
   }

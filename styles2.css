@@ -65,7 +65,7 @@
     display: flex;
     justify-content:  space-between;
     background-color: #007DC1;
-    padding: 14px 16px;
+    padding-top: 20px;
     width: 100%;
   }
 
@@ -74,6 +74,8 @@
     color: white;
     text-decoration: none;
     font-weight: 900;
+    padding: 0 0 20px 6px;
+    font-size: 22px;
   }
 
   .logo:hover {
@@ -84,7 +86,7 @@
   #myLinks a {
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 22px;
     padding-right: 20px;
     font-weight: 900;
   }
