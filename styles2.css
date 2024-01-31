@@ -75,7 +75,7 @@
     text-decoration: none;
     font-weight: 900;
     padding: 0 0 20px 6px;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .logo:hover {
@@ -86,7 +86,7 @@
   #myLinks a {
     color: white;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     padding-right: 20px;
     font-weight: 900;
   }
@@ -220,7 +220,7 @@
 
   .header-text_container {
     grid-column: 1;
-    width: 80%;
+    width: 70%;
     padding: 180px 0 0 60px;
     text-align: left;
   }
@@ -255,16 +255,6 @@
     color: black;
   }
 
-  /* .header-text-container-image_container {
-    position: absolute;
-    
-  }
-
-  .header-text-container_image {
-    width: 360px;
-    padding-left: 280px;
-  } */
-
   .header-image_container {
     grid-column: 2;
     width: 100%;
@@ -275,9 +265,8 @@
   }
 
   .header-image_link > img {
-    width: 100%;
-    padding-top: 40px;
-  
+    width: 900px;
+    
   }
 }
 
@@ -485,7 +474,6 @@
   .exam-section_title {
     text-align: center;
     font-size: 34px;
-    /* padding: 10px 0 0 0px; */
   }
 
   .exam-sections {
@@ -516,7 +504,7 @@
   .exam-section_1 > p {
     font-size: 24px;
     color: black;
-    font-weight: 900;
+    font-weight: 700;
     
   }
 
@@ -543,7 +531,7 @@
   .exam-section_2 > p {
     font-size: 24px;
     color: black;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   .exam-section_2 > img {
@@ -569,7 +557,7 @@
   .exam-section_3 > p {
     font-size: 24px;
     color: black;
-    font-weight: 900;
+    font-weight: 700;
   }
 
   .exam-section_3 > img {
@@ -579,6 +567,11 @@
 }
 
 /* App Features Section */
+
+/* .feature-section {
+
+} */
+
 
 
 
