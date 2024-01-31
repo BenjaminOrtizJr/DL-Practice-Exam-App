@@ -157,6 +157,7 @@
 
 }
 
+/* Header Tablet View */
 @media only screen and (min-width: 414px) and (max-width: 1024px) {
 
   .header-text_container {
@@ -165,7 +166,7 @@
   }
 
   .header-text {
-    font-size: 40px;
+    font-size: 80px;
   }
 
   .header-text_container > p {
@@ -272,10 +273,12 @@
 
 /* Exam Section Mobile View*/
 
-@media only screen and (min-width: 300px) and (max-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
   
   .exam-section_title {
     text-align: center;
+    font-size: 32px;
+    font-weight: 700;
   }
 
   .exam-sections {
@@ -370,11 +373,11 @@
 
 /* Exam Section Tablet View */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 
   .exam-section_title {
     text-align: center;
-    font-size: 34px;
+    font-size: 60px;
   }
 
   .exam-sections {
@@ -482,7 +485,7 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    padding-bottom: 320px;
+    padding-bottom: 300px;
   }
 
   .exam-section_1 {
@@ -568,13 +571,205 @@
 
 /* App Features Section */
 
-.feature-section {
-  background-color: #3C3C3C;
-  height: 600px;
+/* App Features Section Mobile View */
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+  .feature-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .feature-section h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .features-container {
+    text-align: center;
+  }
+
+  .feature-one {
+    padding-bottom: 30px;
+  }
+
+  .feature-one p {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-one img {
+    width: 300px;
+    border-radius: 24px;
+  }
+
+  .feature-two {
+    padding-bottom: 30px;
+  }
+
+  .feature-two p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-two img {
+    width: 300px;
+    border-radius: 24px;
+  }
+
+  .feature-three {
+    padding-bottom: 30px;
+  }
+
+  .feature-three p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-three img {
+    width: 300px;
+    border-radius: 24px;
+  }
 }
 
 
+/* App Features Section Tablet View */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+  .feature-section {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .feature-section h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+
+  .features-container {
+    text-align: center;
+  }
+
+  .feature-one {
+    padding-bottom: 30px;
+  }
+
+  .feature-one p {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-one img {
+    width: 600px;
+    border-radius: 30px;
+  }
+
+  .feature-two {
+    padding-bottom: 30px;
+  }
+
+  .feature-two p {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-two img {
+    width: 600px;
+    border-radius: 30px;
+  }
+
+  .feature-three {
+    padding-bottom: 30px;
+  }
+
+  .feature-three p {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-three img {
+    width: 600px;
+    border-radius: 30px;
+  }
+}
+
+/* App Feature Section Desktop/Laptop View */
+@media only screen and (min-width: 1025px){
+
+  .feature-section {
+    padding-bottom: 20px;
+  }
+
+  .feature-section h2 {
+    
+    text-align: center;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .features-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* .feature-one {
+
+  } */
+
+  .feature-one p {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-one img {
+    width: 300px;
+    border-radius: 24px;
+  }
+
+  /* .feature-two {
+
+  } */
+
+  .feature-two p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-two img {
+    width: 300px;
+    border-radius: 24px;
+  }
+
+  /* .feature-three {
+
+  } */
+
+  .feature-three p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .feature-three img {
+    width: 300px;
+    border-radius: 24px;
+  }
+}
+
+/* App Feature Section Tablet View */
 
 /* Footer  */
 
