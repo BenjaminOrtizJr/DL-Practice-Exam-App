@@ -220,7 +220,7 @@
 
   .header-text_container {
     grid-column: 1;
-    width: 70%;
+    width: 80%;
     padding: 180px 0 0 60px;
     text-align: left;
   }
@@ -482,7 +482,7 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 320px;
   }
 
   .exam-section_1 {
@@ -568,9 +568,10 @@
 
 /* App Features Section */
 
-/* .feature-section {
-
-} */
+.feature-section {
+  background-color: #3C3C3C;
+  height: 600px;
+}
 
 
 
